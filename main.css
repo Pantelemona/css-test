@@ -28,6 +28,17 @@
     position: absolute;
     bottom: 5%;
     left: 3%;
+    font-size: 1.6rem;
+  }
+
+  @media (min-width: 40rem) {
+    #product-overview {
+        height: 40wh;
+        background-position: 50% 25%;
+    }
+    #product-overview h1 {
+        font-size: 3rem;
+    }
   }
   
   .plan__list {
