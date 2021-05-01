@@ -206,6 +206,16 @@ main {
   .mobile-nav__item a {
     font-size: 1.5rem;
   }
+
+  .button[disabled] {
+      cursor: not-allowed;
+      border: #a1a1a1;
+      background: #ccc;
+      color: #a1a1a1;
+
+  }
+
+
 .open {
     display: block !important;
 }
